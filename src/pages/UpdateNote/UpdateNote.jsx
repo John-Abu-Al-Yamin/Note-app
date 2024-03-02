@@ -105,7 +105,7 @@ const UpdateNote = () => {
           <option value={"#2c2c8c"}>Tasks</option>
           <option value={"#2c2c3c"}>Work</option>
           <option value={"#1c2c3c"}>Travel</option>
-          <option value={"#2db5ff"}>Dates</option>
+          <option value={"#2db5ff"}>Date</option>
           </select>
 
           <button type="submit" className="btn btn-primary btn-register">
