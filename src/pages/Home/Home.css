@@ -1,0 +1,11 @@
+.header-contanier {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+.cta {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}

@@ -1,0 +1,102 @@
+.create-note {
+  text-align: center;
+  margin: 12px 0;
+}
+.btn-create-note {
+  outline: none;
+  width: 60%;
+  display: inline-block;
+  padding: 0.7rem 1.3rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: var(--transition);
+  font-weight: bold;
+  margin-top: 12px;
+  /* text-align: center; */
+  font-size: 19px;
+  font-weight: bold;
+  background: var(--color-primay);
+  color: var(--color-bg);
+}
+.btn-create-note a {
+  color: var(--color-bg);
+}
+.btn-create-note:hover {
+  border-color: transparent;
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-radius: 0.9rem;
+}
+
+.card-note {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.cards {
+  padding: 12px;
+  width: 45%;
+
+}
+.card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 1.4rem;
+  text-align: center;
+  transition: var(--transition);
+}
+.card:hover {
+  background: transparent;
+  border-color: var(--color-primay-variant);
+}
+.btn-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn-card button {
+  outline: none;
+  width: max-content;
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: var(--transition);
+  /* border: 1px solid var(--color-primay); */
+  font-weight: bold;
+  margin-top: 12px;
+}
+.btn-card button a {
+  color: black;
+}
+.update-note:hover {
+  border-radius: 0.7rem;
+}
+.delete-note {
+  background: rgba(251, 82, 82, 0.919);
+  color: #fbf9f9;
+}
+.delete-note:hover {
+  background: rgb(253, 28, 28);
+  color: #fff;
+  border-radius: 0.7rem;
+}
+/* ========================================= */
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 720px) {
+    .card-note {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      .cards {
+        padding: 12px;
+        width: 100%;
+      }
+}

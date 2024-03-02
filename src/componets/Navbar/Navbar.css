@@ -1,0 +1,95 @@
+.nav-rigth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 130px;
+  box-shadow: 10px 1px 2px 1px rgb(142, 134, 134);
+}
+.button-auth {
+  display: flex;
+  gap: 12px;
+}
+.home-link {
+  font-size: 24px;
+  font-weight: bold;
+}
+.sing-link {
+  display: flex;
+  gap: 22px;
+}
+.sing-link a {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 110px;
+  box-shadow: 10px 1px 2px 1px rgb(142, 134, 134);
+}
+
+.logout {
+  padding: 0.7rem 1.3rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+@media screen and (max-width: 870px) {
+  .nav-rigth {
+    padding: 12px 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav-rigth {
+    padding: 12px 10px;
+  }
+  nav {
+    padding: 12px 10px;
+  }
+
+  .logout {
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+  }
+  .sing-link {
+    display: flex;
+    gap: 18px;
+  }
+  .sing-link a {
+    font-size: 17px;
+  }
+  .nav-logo h2{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .nav-rigth {
+    padding: 6px 4px;
+  }
+  nav {
+    padding: 6px 4px;
+  }
+  .sing-link a {
+    font-size: 14px;
+  }
+
+  .logout {
+    padding: 0.3rem 0.5rem;
+    font-size: 14px;
+  }
+  .sing-link {
+    display: flex;
+    gap: 10px;
+  }
+  .sing-link a {
+    font-size: 16px;
+  }  
+  .nav-logo h2{
+    font-size: 15px;
+  }
+  .nav-logo h2 svg {
+    display: none;
+  }
+}

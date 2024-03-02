@@ -1,0 +1,44 @@
+.title-register {
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.btn-register {
+    font-weight: bold;
+    font-size: 15px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+input {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    background: transparent;
+    border: 1px solid var(--color-primay-variant);
+    resize: none;
+    color: var(--color-white);
+    font-size: 17px;
+   
+}
+
+select {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    background: transparent;
+    border: 1px solid var(--color-primay-variant);
+    resize: none;
+    color: var(--color-white);
+    font-size: 17px;
+}
+section option {
+    padding: .5rem;
+    border-radius: 0.rem;
+    background: var( --color-bg-variant);
+    color: var(--color-primay);
+    font-size: 17px;
+    outline: none;
+}
