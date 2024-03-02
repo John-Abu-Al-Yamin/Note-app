@@ -10,7 +10,7 @@ const UpdateNote = () => {
 
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  const [color, setColor] = useState("#ffff");
+  const [color, setColor] = useState("#2c2c8c");
 
   const getNote = async () => {
     const res = await fetch(
@@ -101,10 +101,11 @@ const UpdateNote = () => {
             name="color"
             value={color}
             onChange={(e) => setColor(e.target.value)}
-          >
-            <option value={"#ffff"}>White</option>
-            <option value={"#ff0000"}>Red</option>
-            <option value={"#00ff00"}>Green</option>
+          >            <option value={"#2c2c6c"}>Study</option>
+          <option value={"#2c2c8c"}>Tasks</option>
+          <option value={"#2c2c3c"}>Work</option>
+          <option value={"#1c2c3c"}>Travel</option>
+          <option value={"#2db5ff"}>Dates</option>
           </select>
 
           <button type="submit" className="btn btn-primary btn-register">
